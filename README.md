@@ -4,7 +4,4 @@ https://arthurzcx.github.io/PSP-software/
 
 PspTool makes it easier to processing PSP images more smoother, faster and higher precision.
 
-Please visit http://graphic-dynamic.com
-
-Pseudo-color Pressure Cloud Map
-![Pseudo-color Pressure Cloud Map](https://github.com/arthurzcx/PSP-software/resource/PspTool-pressure-map-example.png)
+Please visit http://graphic-dynamic.com or https://arthurzcx.github.io/PSP-software/
