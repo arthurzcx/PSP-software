@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">                
+        <meta name="ROBOTS" content="ALL">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="./resource/dstyle.css">        
+
+        <style>
+            .divclass1{text-align: center}
+            .divclass2{color:black;font-size: 30px;text-align: center}
+            .divclass3{color:white;text-align:left;font-size: 30px;margin-left: 10%; margin-right: 10% }
+
+            hr{        
+                background: green;        
+                border: none;        
+                height: 2px;    
+            }
+        </style>
+
+        <script type="text/javascript" src="./resource/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("div.menu-button").click(function(){   
+                                console.log("click");                         
+                                $("div.nav-menu-on").toggleClass('active');
+                                $("div.menu-button").toggleClass('active');
+                            });
+                });
+        </script>         
+    </head>
+
+    <body id="homepage" class="homepage">
+
+        <script>
+            $(document).ready(function(){
+                $("body").toggleClass("homepage");
+            });
+
+        </script>
+
+        <div class="copy-banner">
+            <div class="container container--flex container--flex--wrap--mobile">
+                <p>
+                    PspTool makes it easier to processing PSP images more smoother, faster and higher precision.
+                </p>
+                <p>Please visit <a href="http://graphic-dynamic.com">http://graphic-dynamic.com </a></p>
+            </div>
+        </div>
+        <div id="billboard"></div>
+
+        <div class="container sibebar-right">
+                <div id="container">    
+                    <div id="content">                    
+                        <div id="content-main">
+
+                            <hr>
+
+                            <div class="divclass2">
+                                <p>Pseudo-color Pressure Cloud Map</p>
+                            </div>
+
+                            <div class="divclass1"> 
+                                <img src="./resource/PspTool-pressure-map-example.png" alt="Loading image..." width="90%">
+                            </div>
+
+                            <hr>
+
+                            <div class="divclass2">
+                                <p>Paint Calibration</p>
+                            </div>
+
+                            <div class="divclass1">
+                                <img src="./resource/PspTool-paint-calibration-example.png" alt="Loading image..." width="90%">        
+                            </div>
+
+                            <hr>
+
+                            <div class="divclass2">
+                                <p>Automatic Marker Detection</p>
+                            </div>
+
+                            <div class="divclass1">
+                                <img src="./resource/PspTool-automatic-marker-example.png" alt="Loading image..." width="90%">
+                            </div>
+
+                            <hr>
+
+                            <div class="divclass2">
+                                <p>Images Alignment</p>
+                            </div>
+
+                            <div class="divclass1">
+                                <img src="./resource/PspTool-image-match-example.png" alt="Loading image..." width="90%">
+                            </div>
+
+                            <hr>
+
+                            <div class="divclass2">
+                                <p>Light Ratio</p>
+                            </div>
+
+                            <div class="divclass1">
+                                <img src="./resource/PspTool-light-ratio-example.PNG" alt="Loading image..." width="90%">
+                            </div>
+                            <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
